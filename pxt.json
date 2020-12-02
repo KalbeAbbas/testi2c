@@ -1,0 +1,30 @@
+{
+    "name": "test-i2c",
+    "version": "0.0.0",
+    "description": "test i2c",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts",
+		"test.cpp",
+		"test.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+	
+	"disablesVariants": [
+        "mbcodal"
+    ],
+    "preferredEditor": "blocksprj"
+}
